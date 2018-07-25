@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">परिवहन ऐप</string>
+    <string name="welcome_to_the_transport_app">परिवहन ऐप में आपका स्वागत है</string>
+    <string name="email">ईमेल</string>
+    <string name="password">पासवर्ड</string>
+    <string name="show_password">पासवर्ड दिखाए</string>
+    <string name="i_m_customer">मैं ग्राहक हूं</string>
+    <string name="i_m_transporter">मैं ट्रांसपोर्टर हूँ</string>
+    <string name="gst_optional">जीएसटी (वैकल्पिक)</string>
+    <string name="pan_no">पैन संख्या</string>
+    <string name="name">नाम</string>
+    <string name="hindi">हिंदी</string>
+    <string name="english">अंग्रेज़ी</string>
+    <string name="mobile_no">मोबाइल नंबर</string>
+    <string name="vehicle_no">गाडी नंबर</string>
+    <string name="register">पंजीकरण करे</string>
+    <string name="choose_your_language">अपनी भाषा चुनिए:</string>
+    <string name="enter_details">कृपया अपना विवरण दर्ज करें!</string>
+    <string name="customer_registration">ग्राहक पंजीकरण</string>
+    <string name="transporter_registration">ट्रांसपोर्टर पंजीकरण</string>
+    <string name="transport_app">परिवहन ऐप</string>
+</resources>

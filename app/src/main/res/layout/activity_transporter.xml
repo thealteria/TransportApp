@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TransporterActivity"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary">
+
+    <include layout="@layout/app_bar_layout" android:id="@+id/cust_appbar"/>
+
+    <com.github.florent37.materialtextfield.MaterialTextField
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        app:mtf_labelColor="#ffff"
+        android:layout_marginTop="35dp"
+        android:layout_gravity="center_horizontal">
+
+        <EditText
+            android:id="@+id/tName"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:hint="Name"
+            android:digits=".-_ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890@"
+            android:inputType="textCapSentences"
+            android:maxLines="1"/>
+
+    </com.github.florent37.materialtextfield.MaterialTextField>
+
+    <com.github.florent37.materialtextfield.MaterialTextField
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        app:mtf_labelColor="#ffff"
+        android:layout_marginTop="3dp"
+        android:layout_gravity="center_horizontal"
+        app:mtf_image="@drawable/ic_phone">
+
+        <EditText
+            android:id="@+id/tmobile"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:digits="._ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890@#$&amp;"
+            android:hint="@string/mobile_no"
+            android:inputType="number"
+            android:maxLines="1"
+            android:singleLine="true"/>
+
+    </com.github.florent37.materialtextfield.MaterialTextField>
+
+    <com.github.florent37.materialtextfield.MaterialTextField
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        app:mtf_labelColor="#ffff"
+        android:layout_marginTop="3dp"
+        android:layout_gravity="center_horizontal"
+        app:mtf_image="@drawable/ic_vehicle">
+
+        <EditText
+            android:id="@+id/tvehicle"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:digits=".-ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890"
+            android:hint="@string/vehicle_no"
+            android:maxLines="1"
+            android:singleLine="true"/>
+
+    </com.github.florent37.materialtextfield.MaterialTextField>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50sp">
+
+
+        <Button
+            android:id="@+id/register"
+            android:onClick="register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:textColor="#ffffff"
+            tools:backgroundTint="@color/colorAccent"
+            android:text="@string/register" />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

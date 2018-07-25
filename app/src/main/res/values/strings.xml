@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">TransportAppDemo</string>
+    <string name="welcome_to_the_transport_app">Welcome to the Transport App</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="show_password">Show Password</string>
+    <string name="i_m_customer">I\'m Customer</string>
+    <string name="i_m_transporter">I\'m Transporter</string>
+    <string name="gst_optional">GST (Optional)</string>
+    <string name="pan_no">PAN No.</string>
+    <string name="name">Name</string>
+    <string name="hindi">Hindi</string>
+    <string name="english">English</string>
+    <string name="mobile_no">Mobile no.</string>
+    <string name="vehicle_no">Vehicle no.</string>
+    <string name="register">Register</string>
+    <string name="choose_your_language">Choose your language:</string>
+    <string name="enter_details">Please enter your details!</string>
+    <string name="customer_registration">Customer Registration</string>
+    <string name="transporter_registration">Transporter Registration</string>
+    <string name="transport_app">Transport App</string>
+</resources>
